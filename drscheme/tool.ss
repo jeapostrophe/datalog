@@ -1,7 +1,6 @@
 #lang scheme
-(require (planet cce/scheme:4:1/planet))
-(require (only-in macro-debugger/tool language/macro-stepper<%>)
-         scheme/gui/base
+(require (planet cce/scheme:6/planet))
+(require scheme/gui/base
          framework
          drscheme/tool
          scheme/match

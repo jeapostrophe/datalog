@@ -4,4 +4,3 @@ ancestor(john, douglas).
 ancestor(bob, douglas).
 ancestor(ebbon, john).
 ancestor(ebbon, douglas).
-

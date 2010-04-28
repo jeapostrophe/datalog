@@ -1,5 +1,5 @@
 #lang scheme
-(require (planet schematics/schemeunit:3)
+(require schemeunit
          scheme/runtime-path
          "../parse.ss"
          "../eval.ss")

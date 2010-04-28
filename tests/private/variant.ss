@@ -1,5 +1,5 @@
 #lang scheme
-(require (planet schematics/schemeunit:3)
+(require schemeunit
          "../../ast.ss"
          "../../private/variant.ss")
 (require/expose "../../private/variant.ss" (variant-terms variant-term variant-var variant? term-hash mk-literal-hash))

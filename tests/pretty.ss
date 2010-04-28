@@ -1,5 +1,5 @@
 #lang scheme
-(require (planet schematics/schemeunit:3)
+(require schemeunit
          (planet dherman/pprint:4)
          "../parse.ss"
          "../pretty.ss")

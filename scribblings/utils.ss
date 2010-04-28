@@ -1,7 +1,7 @@
 #lang scheme/base
 
 (require scribble/eval
-         (planet cce/scheme:4:1/planet))
+         (planet cce/scheme:6/planet))
 
 (provide the-eval)
 

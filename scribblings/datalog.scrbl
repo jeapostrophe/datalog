@@ -3,7 +3,8 @@
           scribble/eval
           scribble/basic
           scribble/bnf
-          (planet cce/scheme:4:1/planet)
+          (planet cce/scheme:6/planet)
+          (planet cce/scheme:6/scribble)
           (for-label (planet dherman/pprint:4)
                      scheme/base
                      scheme/contract

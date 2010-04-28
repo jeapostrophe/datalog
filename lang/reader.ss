@@ -7,5 +7,12 @@
                   (let ([ast (parse-program in)])
                     (list `(#%module-begin ,@ast))))
   #:whole-body-readers? #t
-  (require (planet cce/scheme:4:1/planet)
+  #:info (lambda (key defval default)
+           ; XXX Should have comment character key
+           ; XXX repl submit
+           (case key
+             [(color-lexer)
+              (dynamic-require `(planet ,(this-package-version-symbol drscheme/syntax-color)) 'get-syntax-token)]
+             [else (default key defval)]))
+  (require (planet cce/scheme:6/planet)
            "../parse.ss"))

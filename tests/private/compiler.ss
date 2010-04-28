@@ -1,5 +1,5 @@
 #lang scheme
-(require (planet schematics/schemeunit:3)
+(require schemeunit
          (for-template "../../eval.ss")
          "../../parse.ss"
          "../../private/compiler.ss")

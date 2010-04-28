@@ -1,5 +1,5 @@
 #lang scheme
-(require (planet schematics/schemeunit:3)
+(require schemeunit
          "../../drscheme/syntax-color.ss")
 
 (provide syntax-color-tests)

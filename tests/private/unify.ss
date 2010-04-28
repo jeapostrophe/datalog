@@ -1,5 +1,5 @@
 #lang scheme
-(require (planet schematics/schemeunit:3)
+(require schemeunit
          "../../ast.ss"
          "../../private/env.ss"
          "../../private/unify.ss")
