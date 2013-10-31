@@ -1,1 +1,1 @@
-This package is deprecated because it has been improved and moved into the Racket core.
+[moved] an implementation of datalog (moved to datalog package in Racket core)
